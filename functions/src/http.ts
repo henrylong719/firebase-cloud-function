@@ -1,13 +1,13 @@
 import * as functions from 'firebase-functions';
 
 // interactive with firestore etc.
-import * as admin from 'firebase-admin';
+// import * as admin from 'firebase-admin';
 
 import * as express from 'express';
 
 import * as cors from 'cors';
 
-admin.initializeApp();
+// admin.initializeApp();
 
 // export const basicHTTP = functions.https.onRequest((request, response) => {
 //   const name = request.query.name;
